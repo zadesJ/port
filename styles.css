@@ -1,0 +1,172 @@
+
+body{
+    font-family: 'Sora', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+/**Side Navigation Bar**/
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+  
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+  
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  .navbarMenu{
+    padding: 20px;
+    text-align: right;
+  }
+
+
+/**Navigation Bar**/
+#navbar{
+    background-color: white;
+    font-size: 20px;;
+}
+
+
+
+/**Home Screen**/
+#home{
+    padding: 80px;
+}
+.hometext{
+    font-weight: bolder;
+}
+.hometext1{
+    font-size: 25px;
+	letter-spacing: 10px;
+	color: #0175f6;
+}
+.hometext2{
+    font-size: 75px;
+}
+.hometext2 span{
+    color: #0175f6;
+}
+
+
+
+/**About**/
+#about{
+    background-color: #f8f8fa;
+    padding: 80px;
+}
+p{
+	color: #aaaaaa;
+}
+.aboutcontent{
+    padding: 30px;
+}
+.welcome{
+    font-size: 14px;
+    letter-spacing: 5px;
+    color: black;
+}
+h1{
+    font-size: 35px;
+}
+.aboutlist{
+    padding-top: 20px;
+}
+
+/**Skills**/
+#skills{
+    padding: 80px;
+}
+.skillsmini{
+    font-size: 14px;
+    letter-spacing: 5px;
+    text-align: center;
+    color: black;
+}
+h2{
+    font-size: 35px;
+    text-align: center;
+}
+.listskills{
+    font-size: 20px;
+    padding: 12px 20px;
+}
+
+/**Projects**/
+#projects{
+    padding: 80px;
+    background-color: #f8f8fa;
+}
+.projectmini{
+    font-size: 14px;
+    letter-spacing: 5px;
+    text-align: center;
+    color: black;
+}
+h3{
+    font-size: 35px;
+    text-align: center;
+}
+.projContent{
+    padding-top: 20px;
+}
+.workImg{
+    padding: 20px;
+}
+
+
+/**Contact**/
+#contact{
+    padding-top: 80px;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-bottom: 40px;
+    background-color: #0175f6;
+}
+h4{
+    font-size: 35px;
+    color: white;
+}
+.contactHeader div{
+    color: white;
+}
+.contactHeader img{
+    width: 20px;
+    height: 20px;
+}
+
+.contactForms label{
+    color: white;
+}
+
+.sns img{
+    width: 40px;
+    height: 40px;
+}
+
+form p{
+    color: white;
+}
